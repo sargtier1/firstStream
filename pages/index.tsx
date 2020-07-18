@@ -1,9 +1,16 @@
+import * as React from 'react'
+import styled from 'styled-components'
+
 const App = () => {
   return (
     <>
-      <h1>hello there</h1>
+      <Title>hello there</Title>
     </>
   )
 }
 
 export default App
+
+const Title = styled.h1`
+  color: red;
+`
