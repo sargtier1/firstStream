@@ -38,4 +38,8 @@ const theme = {
   },
 }
 
-export default theme
+const modes = Object.keys(theme.colors.modes).map((key) => key)
+
+modes.unshift('light')
+
+export { theme, modes }
