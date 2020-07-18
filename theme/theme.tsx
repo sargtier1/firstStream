@@ -19,6 +19,7 @@ const baseColors: BaseColors = {
 const theme = {
   colors: {
     text: '#373737',
+    textWhite: 'whitesmoke',
     background: baseColors[100],
     primary: baseColors[200],
     secondary: baseColors[400],
@@ -28,8 +29,8 @@ const theme = {
       dark: {
         text: 'whitesmoke',
         background: baseColors[500],
-        primary: baseColors[200],
-        secondary: baseColors[400],
+        primary: baseColors[400],
+        secondary: baseColors[200],
         gray: '#222',
         lightgray: '#111',
       },
